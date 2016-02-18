@@ -271,165 +271,63 @@
 		8A40F01E1C45895E001864D2 /* WSAStartupSingleton.h in Sources */ = {isa = PBXBuildFile; fileRef = 102531B816A6775E0000C5BD /* WSAStartupSingleton.h */; };
 		8A40F01F1C45895E001864D2 /* XBox360Includes.h in Sources */ = {isa = PBXBuildFile; fileRef = 102531B916A6775E0000C5BD /* XBox360Includes.h */; };
 		8AA94CA21C73A0F40026AFBC /* DR_SHA1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A40EF071C4572F6001864D2 /* DR_SHA1.cpp */; };
-		8AA94CA31C73A0F40026AFBC /* DR_SHA1.h in Sources */ = {isa = PBXBuildFile; fileRef = 8A40EF081C4572F6001864D2 /* DR_SHA1.h */; };
 		8AA94CA41C73A0F40026AFBC /* _FindFirst.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530B316A6775E0000C5BD /* _FindFirst.cpp */; };
-		8AA94CA51C73A0F40026AFBC /* _FindFirst.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530B416A6775E0000C5BD /* _FindFirst.h */; };
-		8AA94CA61C73A0F40026AFBC /* AutopatcherPatchContext.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530B516A6775E0000C5BD /* AutopatcherPatchContext.h */; };
-		8AA94CA71C73A0F40026AFBC /* AutopatcherRepositoryInterface.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530B616A6775E0000C5BD /* AutopatcherRepositoryInterface.h */; };
 		8AA94CA81C73A0F40026AFBC /* Base64Encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530B716A6775E0000C5BD /* Base64Encoder.cpp */; };
-		8AA94CA91C73A0F40026AFBC /* Base64Encoder.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530B816A6775E0000C5BD /* Base64Encoder.h */; };
 		8AA94CAA1C73A0F40026AFBC /* BitStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530B916A6775E0000C5BD /* BitStream.cpp */; };
-		8AA94CAB1C73A0F40026AFBC /* BitStream.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530BA16A6775E0000C5BD /* BitStream.h */; };
 		8AA94CAC1C73A0F40026AFBC /* CCRakNetSlidingWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530BB16A6775E0000C5BD /* CCRakNetSlidingWindow.cpp */; };
-		8AA94CAD1C73A0F40026AFBC /* CCRakNetSlidingWindow.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530BC16A6775E0000C5BD /* CCRakNetSlidingWindow.h */; };
 		8AA94CAE1C73A0F40026AFBC /* CCRakNetUDT.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530BD16A6775E0000C5BD /* CCRakNetUDT.cpp */; };
-		8AA94CAF1C73A0F40026AFBC /* CCRakNetUDT.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530BE16A6775E0000C5BD /* CCRakNetUDT.h */; };
 		8AA94CB01C73A0F40026AFBC /* CheckSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530BF16A6775E0000C5BD /* CheckSum.cpp */; };
-		8AA94CB11C73A0F40026AFBC /* CheckSum.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530C016A6775E0000C5BD /* CheckSum.h */; };
 		8AA94CB21C73A0F40026AFBC /* CloudClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530C116A6775E0000C5BD /* CloudClient.cpp */; };
-		8AA94CB31C73A0F40026AFBC /* CloudClient.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530C216A6775E0000C5BD /* CloudClient.h */; };
 		8AA94CB41C73A0F40026AFBC /* CloudCommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530C316A6775E0000C5BD /* CloudCommon.cpp */; };
-		8AA94CB51C73A0F40026AFBC /* CloudCommon.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530C416A6775E0000C5BD /* CloudCommon.h */; };
 		8AA94CB61C73A0F40026AFBC /* CloudServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530C516A6775E0000C5BD /* CloudServer.cpp */; };
-		8AA94CB71C73A0F40026AFBC /* CloudServer.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530C616A6775E0000C5BD /* CloudServer.h */; };
-		8AA94CB81C73A0F40026AFBC /* CMakeLists.txt in Sources */ = {isa = PBXBuildFile; fileRef = 102530C716A6775E0000C5BD /* CMakeLists.txt */; };
 		8AA94CB91C73A0F40026AFBC /* CommandParserInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530C816A6775E0000C5BD /* CommandParserInterface.cpp */; };
-		8AA94CBA1C73A0F40026AFBC /* CommandParserInterface.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530C916A6775E0000C5BD /* CommandParserInterface.h */; };
 		8AA94CBB1C73A0F40026AFBC /* ConnectionGraph2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530CA16A6775E0000C5BD /* ConnectionGraph2.cpp */; };
-		8AA94CBC1C73A0F40026AFBC /* ConnectionGraph2.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530CB16A6775E0000C5BD /* ConnectionGraph2.h */; };
 		8AA94CBD1C73A0F40026AFBC /* ConsoleServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530CC16A6775E0000C5BD /* ConsoleServer.cpp */; };
-		8AA94CBE1C73A0F40026AFBC /* ConsoleServer.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530CD16A6775E0000C5BD /* ConsoleServer.h */; };
 		8AA94CBF1C73A0F40026AFBC /* DataCompressor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530CE16A6775E0000C5BD /* DataCompressor.cpp */; };
-		8AA94CC01C73A0F40026AFBC /* DataCompressor.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530CF16A6775E0000C5BD /* DataCompressor.h */; };
 		8AA94CC11C73A0F40026AFBC /* DirectoryDeltaTransfer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530D016A6775E0000C5BD /* DirectoryDeltaTransfer.cpp */; };
-		8AA94CC21C73A0F40026AFBC /* DirectoryDeltaTransfer.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530D116A6775E0000C5BD /* DirectoryDeltaTransfer.h */; };
-		8AA94CC31C73A0F40026AFBC /* DS_BinarySearchTree.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530D216A6775E0000C5BD /* DS_BinarySearchTree.h */; };
-		8AA94CC41C73A0F40026AFBC /* DS_BPlusTree.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530D316A6775E0000C5BD /* DS_BPlusTree.h */; };
 		8AA94CC51C73A0F40026AFBC /* DS_BytePool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530D416A6775E0000C5BD /* DS_BytePool.cpp */; };
-		8AA94CC61C73A0F40026AFBC /* DS_BytePool.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530D516A6775E0000C5BD /* DS_BytePool.h */; };
 		8AA94CC71C73A0F40026AFBC /* DS_ByteQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530D616A6775E0000C5BD /* DS_ByteQueue.cpp */; };
-		8AA94CC81C73A0F40026AFBC /* DS_ByteQueue.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530D716A6775E0000C5BD /* DS_ByteQueue.h */; };
-		8AA94CC91C73A0F40026AFBC /* DS_Hash.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530D816A6775E0000C5BD /* DS_Hash.h */; };
-		8AA94CCA1C73A0F40026AFBC /* DS_Heap.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530D916A6775E0000C5BD /* DS_Heap.h */; };
 		8AA94CCB1C73A0F40026AFBC /* DS_HuffmanEncodingTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530DA16A6775E0000C5BD /* DS_HuffmanEncodingTree.cpp */; };
-		8AA94CCC1C73A0F40026AFBC /* DS_HuffmanEncodingTree.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530DB16A6775E0000C5BD /* DS_HuffmanEncodingTree.h */; };
-		8AA94CCD1C73A0F40026AFBC /* DS_HuffmanEncodingTreeFactory.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530DC16A6775E0000C5BD /* DS_HuffmanEncodingTreeFactory.h */; };
-		8AA94CCE1C73A0F40026AFBC /* DS_HuffmanEncodingTreeNode.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530DD16A6775E0000C5BD /* DS_HuffmanEncodingTreeNode.h */; };
-		8AA94CCF1C73A0F40026AFBC /* DS_LinkedList.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530DE16A6775E0000C5BD /* DS_LinkedList.h */; };
-		8AA94CD01C73A0F40026AFBC /* DS_List.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530DF16A6775E0000C5BD /* DS_List.h */; };
-		8AA94CD11C73A0F40026AFBC /* DS_Map.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530E016A6775E0000C5BD /* DS_Map.h */; };
-		8AA94CD21C73A0F40026AFBC /* DS_MemoryPool.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530E116A6775E0000C5BD /* DS_MemoryPool.h */; };
-		8AA94CD31C73A0F40026AFBC /* DS_Multilist.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530E216A6775E0000C5BD /* DS_Multilist.h */; };
-		8AA94CD41C73A0F40026AFBC /* DS_OrderedChannelHeap.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530E316A6775E0000C5BD /* DS_OrderedChannelHeap.h */; };
-		8AA94CD51C73A0F40026AFBC /* DS_OrderedList.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530E416A6775E0000C5BD /* DS_OrderedList.h */; };
-		8AA94CD61C73A0F40026AFBC /* DS_Queue.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530E516A6775E0000C5BD /* DS_Queue.h */; };
-		8AA94CD71C73A0F40026AFBC /* DS_QueueLinkedList.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530E616A6775E0000C5BD /* DS_QueueLinkedList.h */; };
-		8AA94CD81C73A0F40026AFBC /* DS_RangeList.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530E716A6775E0000C5BD /* DS_RangeList.h */; };
 		8AA94CD91C73A0F40026AFBC /* DS_Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530E816A6775E0000C5BD /* DS_Table.cpp */; };
-		8AA94CDA1C73A0F40026AFBC /* DS_Table.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530E916A6775E0000C5BD /* DS_Table.h */; };
-		8AA94CDB1C73A0F40026AFBC /* DS_ThreadsafeAllocatingQueue.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530EA16A6775E0000C5BD /* DS_ThreadsafeAllocatingQueue.h */; };
-		8AA94CDC1C73A0F40026AFBC /* DS_Tree.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530EB16A6775E0000C5BD /* DS_Tree.h */; };
-		8AA94CDD1C73A0F40026AFBC /* DS_WeightedGraph.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530EC16A6775E0000C5BD /* DS_WeightedGraph.h */; };
 		8AA94CDE1C73A0F40026AFBC /* DynDNS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530ED16A6775E0000C5BD /* DynDNS.cpp */; };
-		8AA94CDF1C73A0F40026AFBC /* DynDNS.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530EE16A6775E0000C5BD /* DynDNS.h */; };
 		8AA94CE01C73A0F40026AFBC /* EmailSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530EF16A6775E0000C5BD /* EmailSender.cpp */; };
-		8AA94CE11C73A0F40026AFBC /* EmailSender.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530F016A6775E0000C5BD /* EmailSender.h */; };
-		8AA94CE21C73A0F40026AFBC /* EmptyHeader.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530F116A6775E0000C5BD /* EmptyHeader.h */; };
 		8AA94CE31C73A0F40026AFBC /* EpochTimeToString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530F216A6775E0000C5BD /* EpochTimeToString.cpp */; };
-		8AA94CE41C73A0F40026AFBC /* EpochTimeToString.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530F316A6775E0000C5BD /* EpochTimeToString.h */; };
-		8AA94CE51C73A0F40026AFBC /* Export.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530F416A6775E0000C5BD /* Export.h */; };
 		8AA94CE61C73A0F40026AFBC /* FileList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530F516A6775E0000C5BD /* FileList.cpp */; };
-		8AA94CE71C73A0F40026AFBC /* FileList.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530F616A6775E0000C5BD /* FileList.h */; };
-		8AA94CE81C73A0F40026AFBC /* FileListNodeContext.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530F716A6775E0000C5BD /* FileListNodeContext.h */; };
 		8AA94CE91C73A0F40026AFBC /* FileListTransfer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530F816A6775E0000C5BD /* FileListTransfer.cpp */; };
-		8AA94CEA1C73A0F40026AFBC /* FileListTransfer.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530F916A6775E0000C5BD /* FileListTransfer.h */; };
-		8AA94CEB1C73A0F40026AFBC /* FileListTransferCBInterface.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530FA16A6775E0000C5BD /* FileListTransferCBInterface.h */; };
 		8AA94CEC1C73A0F40026AFBC /* FileOperations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530FB16A6775E0000C5BD /* FileOperations.cpp */; };
-		8AA94CED1C73A0F40026AFBC /* FileOperations.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530FC16A6775E0000C5BD /* FileOperations.h */; };
 		8AA94CEE1C73A0F40026AFBC /* FormatString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530FD16A6775E0000C5BD /* FormatString.cpp */; };
-		8AA94CEF1C73A0F40026AFBC /* FormatString.h in Sources */ = {isa = PBXBuildFile; fileRef = 102530FE16A6775E0000C5BD /* FormatString.h */; };
 		8AA94CF01C73A0F40026AFBC /* FullyConnectedMesh2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102530FF16A6775E0000C5BD /* FullyConnectedMesh2.cpp */; };
-		8AA94CF11C73A0F40026AFBC /* FullyConnectedMesh2.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025310016A6775E0000C5BD /* FullyConnectedMesh2.h */; };
 		8AA94CF21C73A0F40026AFBC /* Getche.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025310116A6775E0000C5BD /* Getche.cpp */; };
-		8AA94CF31C73A0F40026AFBC /* Getche.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025310216A6775E0000C5BD /* Getche.h */; };
 		8AA94CF41C73A0F40026AFBC /* Gets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025310316A6775E0000C5BD /* Gets.cpp */; };
-		8AA94CF51C73A0F40026AFBC /* Gets.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025310416A6775E0000C5BD /* Gets.h */; };
 		8AA94CF61C73A0F40026AFBC /* GetTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025310516A6775E0000C5BD /* GetTime.cpp */; };
-		8AA94CF71C73A0F40026AFBC /* GetTime.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025310616A6775E0000C5BD /* GetTime.h */; };
 		8AA94CF81C73A0F40026AFBC /* gettimeofday.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025310716A6775E0000C5BD /* gettimeofday.cpp */; };
-		8AA94CF91C73A0F40026AFBC /* gettimeofday.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025310816A6775E0000C5BD /* gettimeofday.h */; };
 		8AA94CFA1C73A0F40026AFBC /* GridSectorizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025310916A6775E0000C5BD /* GridSectorizer.cpp */; };
-		8AA94CFB1C73A0F40026AFBC /* GridSectorizer.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025310A16A6775E0000C5BD /* GridSectorizer.h */; };
 		8AA94CFC1C73A0F40026AFBC /* HTTPConnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025310B16A6775E0000C5BD /* HTTPConnection.cpp */; };
-		8AA94CFD1C73A0F40026AFBC /* HTTPConnection.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025310C16A6775E0000C5BD /* HTTPConnection.h */; };
 		8AA94CFE1C73A0F40026AFBC /* HTTPConnection2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025310D16A6775E0000C5BD /* HTTPConnection2.cpp */; };
-		8AA94CFF1C73A0F40026AFBC /* HTTPConnection2.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025310E16A6775E0000C5BD /* HTTPConnection2.h */; };
 		8AA94D001C73A0F40026AFBC /* IncrementalReadInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025310F16A6775E0000C5BD /* IncrementalReadInterface.cpp */; };
-		8AA94D011C73A0F40026AFBC /* IncrementalReadInterface.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025311016A6775E0000C5BD /* IncrementalReadInterface.h */; };
-		8AA94D021C73A0F40026AFBC /* InternalPacket.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025311116A6775E0000C5BD /* InternalPacket.h */; };
 		8AA94D031C73A0F50026AFBC /* Itoa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025311216A6775E0000C5BD /* Itoa.cpp */; };
-		8AA94D041C73A0F50026AFBC /* Itoa.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025311316A6775E0000C5BD /* Itoa.h */; };
-		8AA94D051C73A0F50026AFBC /* Kbhit.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025311416A6775E0000C5BD /* Kbhit.h */; };
 		8AA94D061C73A0F50026AFBC /* LinuxStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025311516A6775E0000C5BD /* LinuxStrings.cpp */; };
-		8AA94D071C73A0F50026AFBC /* LinuxStrings.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025311616A6775E0000C5BD /* LinuxStrings.h */; };
 		8AA94D081C73A0F50026AFBC /* LocklessTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025311716A6775E0000C5BD /* LocklessTypes.cpp */; };
-		8AA94D091C73A0F50026AFBC /* LocklessTypes.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025311816A6775E0000C5BD /* LocklessTypes.h */; };
 		8AA94D0A1C73A0F50026AFBC /* LogCommandParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025311916A6775E0000C5BD /* LogCommandParser.cpp */; };
-		8AA94D0B1C73A0F50026AFBC /* LogCommandParser.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025311A16A6775E0000C5BD /* LogCommandParser.h */; };
 		8AA94D0C1C73A0F50026AFBC /* MessageFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025311B16A6775E0000C5BD /* MessageFilter.cpp */; };
-		8AA94D0D1C73A0F50026AFBC /* MessageFilter.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025311C16A6775E0000C5BD /* MessageFilter.h */; };
-		8AA94D0E1C73A0F50026AFBC /* MessageIdentifiers.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025311D16A6775E0000C5BD /* MessageIdentifiers.h */; };
-		8AA94D0F1C73A0F50026AFBC /* MTUSize.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025311E16A6775E0000C5BD /* MTUSize.h */; };
-		8AA94D101C73A0F50026AFBC /* NativeFeatureIncludes.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025311F16A6775E0000C5BD /* NativeFeatureIncludes.h */; };
-		8AA94D111C73A0F50026AFBC /* NativeFeatureIncludesOverrides.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025312016A6775E0000C5BD /* NativeFeatureIncludesOverrides.h */; };
-		8AA94D121C73A0F50026AFBC /* NativeTypes.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025312116A6775E0000C5BD /* NativeTypes.h */; };
 		8AA94D131C73A0F50026AFBC /* NatPunchthroughClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025312216A6775E0000C5BD /* NatPunchthroughClient.cpp */; };
-		8AA94D141C73A0F50026AFBC /* NatPunchthroughClient.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025312316A6775E0000C5BD /* NatPunchthroughClient.h */; };
 		8AA94D151C73A0F50026AFBC /* NatPunchthroughServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025312416A6775E0000C5BD /* NatPunchthroughServer.cpp */; };
-		8AA94D161C73A0F50026AFBC /* NatPunchthroughServer.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025312516A6775E0000C5BD /* NatPunchthroughServer.h */; };
 		8AA94D171C73A0F50026AFBC /* NatTypeDetectionClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025312616A6775E0000C5BD /* NatTypeDetectionClient.cpp */; };
-		8AA94D181C73A0F50026AFBC /* NatTypeDetectionClient.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025312716A6775E0000C5BD /* NatTypeDetectionClient.h */; };
 		8AA94D191C73A0F50026AFBC /* NatTypeDetectionCommon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025312816A6775E0000C5BD /* NatTypeDetectionCommon.cpp */; };
-		8AA94D1A1C73A0F50026AFBC /* NatTypeDetectionCommon.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025312916A6775E0000C5BD /* NatTypeDetectionCommon.h */; };
 		8AA94D1B1C73A0F50026AFBC /* NatTypeDetectionServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025312A16A6775E0000C5BD /* NatTypeDetectionServer.cpp */; };
-		8AA94D1C1C73A0F50026AFBC /* NatTypeDetectionServer.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025312B16A6775E0000C5BD /* NatTypeDetectionServer.h */; };
 		8AA94D1D1C73A0F50026AFBC /* NetworkIDManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025312C16A6775E0000C5BD /* NetworkIDManager.cpp */; };
-		8AA94D1E1C73A0F50026AFBC /* NetworkIDManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025312D16A6775E0000C5BD /* NetworkIDManager.h */; };
 		8AA94D1F1C73A0F50026AFBC /* NetworkIDObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025312E16A6775E0000C5BD /* NetworkIDObject.cpp */; };
-		8AA94D201C73A0F50026AFBC /* NetworkIDObject.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025312F16A6775E0000C5BD /* NetworkIDObject.h */; };
 		8AA94D211C73A0F50026AFBC /* PacketConsoleLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025313016A6775E0000C5BD /* PacketConsoleLogger.cpp */; };
-		8AA94D221C73A0F50026AFBC /* PacketConsoleLogger.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025313116A6775E0000C5BD /* PacketConsoleLogger.h */; };
 		8AA94D231C73A0F50026AFBC /* PacketFileLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025313216A6775E0000C5BD /* PacketFileLogger.cpp */; };
-		8AA94D241C73A0F50026AFBC /* PacketFileLogger.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025313316A6775E0000C5BD /* PacketFileLogger.h */; };
 		8AA94D251C73A0F50026AFBC /* PacketizedTCP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025313416A6775E0000C5BD /* PacketizedTCP.cpp */; };
-		8AA94D261C73A0F50026AFBC /* PacketizedTCP.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025313516A6775E0000C5BD /* PacketizedTCP.h */; };
 		8AA94D271C73A0F50026AFBC /* PacketLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025313616A6775E0000C5BD /* PacketLogger.cpp */; };
-		8AA94D281C73A0F50026AFBC /* PacketLogger.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025313716A6775E0000C5BD /* PacketLogger.h */; };
 		8AA94D291C73A0F50026AFBC /* PacketOutputWindowLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025313816A6775E0000C5BD /* PacketOutputWindowLogger.cpp */; };
-		8AA94D2A1C73A0F50026AFBC /* PacketOutputWindowLogger.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025313916A6775E0000C5BD /* PacketOutputWindowLogger.h */; };
-		8AA94D2B1C73A0F50026AFBC /* PacketPool.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025313A16A6775E0000C5BD /* PacketPool.h */; };
-		8AA94D2C1C73A0F50026AFBC /* PacketPriority.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025313B16A6775E0000C5BD /* PacketPriority.h */; };
 		8AA94D2D1C73A0F50026AFBC /* PluginInterface2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025313C16A6775E0000C5BD /* PluginInterface2.cpp */; };
-		8AA94D2E1C73A0F50026AFBC /* PluginInterface2.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025313D16A6775E0000C5BD /* PluginInterface2.h */; };
-		8AA94D2F1C73A0F50026AFBC /* PS3Includes.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025313E16A6775E0000C5BD /* PS3Includes.h */; };
 		8AA94D301C73A0F50026AFBC /* Rackspace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025313F16A6775E0000C5BD /* Rackspace.cpp */; };
-		8AA94D311C73A0F50026AFBC /* Rackspace.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025314016A6775E0000C5BD /* Rackspace.h */; };
-		8AA94D321C73A0F50026AFBC /* RakAlloca.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025314116A6775E0000C5BD /* RakAlloca.h */; };
-		8AA94D331C73A0F50026AFBC /* RakAssert.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025314216A6775E0000C5BD /* RakAssert.h */; };
 		8AA94D341C73A0F50026AFBC /* RakMemoryOverride.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025314316A6775E0000C5BD /* RakMemoryOverride.cpp */; };
-		8AA94D351C73A0F50026AFBC /* RakMemoryOverride.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025314416A6775E0000C5BD /* RakMemoryOverride.h */; };
-		8AA94D361C73A0F50026AFBC /* RakNet.vcproj in Sources */ = {isa = PBXBuildFile; fileRef = 1025314516A6775E0000C5BD /* RakNet.vcproj */; };
-		8AA94D371C73A0F50026AFBC /* RakNet_vc8.vcproj in Sources */ = {isa = PBXBuildFile; fileRef = 1025314616A6775E0000C5BD /* RakNet_vc8.vcproj */; };
-		8AA94D381C73A0F50026AFBC /* RakNet_vc9.vcproj in Sources */ = {isa = PBXBuildFile; fileRef = 1025314716A6775E0000C5BD /* RakNet_vc9.vcproj */; };
 		8AA94D391C73A0F50026AFBC /* RakNetCommandParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025314816A6775E0000C5BD /* RakNetCommandParser.cpp */; };
-		8AA94D3A1C73A0F50026AFBC /* RakNetCommandParser.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025314916A6775E0000C5BD /* RakNetCommandParser.h */; };
-		8AA94D3B1C73A0F50026AFBC /* RakNetDefines.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025314A16A6775E0000C5BD /* RakNetDefines.h */; };
-		8AA94D3C1C73A0F50026AFBC /* RakNetDefinesOverrides.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025314B16A6775E0000C5BD /* RakNetDefinesOverrides.h */; };
-		8AA94D3D1C73A0F50026AFBC /* RakNetSmartPtr.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025314C16A6775E0000C5BD /* RakNetSmartPtr.h */; };
 		8AA94D3E1C73A0F50026AFBC /* RakNetSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025314D16A6775E0000C5BD /* RakNetSocket.cpp */; };
-		8AA94D3F1C73A0F50026AFBC /* RakNetSocket.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025314E16A6775E0000C5BD /* RakNetSocket.h */; };
 		8AA94D401C73A0F50026AFBC /* RakNetSocket2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025314F16A6775E0000C5BD /* RakNetSocket2.cpp */; };
-		8AA94D411C73A0F50026AFBC /* RakNetSocket2.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025315016A6775E0000C5BD /* RakNetSocket2.h */; };
 		8AA94D421C73A0F50026AFBC /* RakNetSocket2_360_720.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025315116A6775E0000C5BD /* RakNetSocket2_360_720.cpp */; };
 		8AA94D431C73A0F50026AFBC /* RakNetSocket2_Berkley.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025315216A6775E0000C5BD /* RakNetSocket2_Berkley.cpp */; };
 		8AA94D441C73A0F50026AFBC /* RakNetSocket2_Berkley_NativeClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025315316A6775E0000C5BD /* RakNetSocket2_Berkley_NativeClient.cpp */; };
@@ -440,99 +338,45 @@
 		8AA94D491C73A0F50026AFBC /* RakNetSocket2_Windows_Linux_360.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025315816A6775E0000C5BD /* RakNetSocket2_Windows_Linux_360.cpp */; };
 		8AA94D4A1C73A0F50026AFBC /* RakNetSocket2_WindowsStore8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025315916A6775E0000C5BD /* RakNetSocket2_WindowsStore8.cpp */; };
 		8AA94D4B1C73A0F50026AFBC /* RakNetStatistics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025315A16A6775E0000C5BD /* RakNetStatistics.cpp */; };
-		8AA94D4C1C73A0F50026AFBC /* RakNetStatistics.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025315B16A6775E0000C5BD /* RakNetStatistics.h */; };
-		8AA94D4D1C73A0F50026AFBC /* RakNetTime.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025315C16A6775E0000C5BD /* RakNetTime.h */; };
 		8AA94D4E1C73A0F50026AFBC /* RakNetTransport2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025315D16A6775E0000C5BD /* RakNetTransport2.cpp */; };
-		8AA94D4F1C73A0F50026AFBC /* RakNetTransport2.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025315E16A6775E0000C5BD /* RakNetTransport2.h */; };
 		8AA94D501C73A0F50026AFBC /* RakNetTypes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025315F16A6775E0000C5BD /* RakNetTypes.cpp */; };
-		8AA94D511C73A0F50026AFBC /* RakNetTypes.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025316016A6775E0000C5BD /* RakNetTypes.h */; };
-		8AA94D521C73A0F50026AFBC /* RakNetVersion.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025316116A6775E0000C5BD /* RakNetVersion.h */; };
 		8AA94D531C73A0F50026AFBC /* RakPeer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025316216A6775E0000C5BD /* RakPeer.cpp */; };
-		8AA94D541C73A0F50026AFBC /* RakPeer.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025316316A6775E0000C5BD /* RakPeer.h */; };
-		8AA94D551C73A0F50026AFBC /* RakPeerInterface.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025316416A6775E0000C5BD /* RakPeerInterface.h */; };
 		8AA94D561C73A0F50026AFBC /* RakSleep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025316516A6775E0000C5BD /* RakSleep.cpp */; };
-		8AA94D571C73A0F60026AFBC /* RakSleep.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025316616A6775E0000C5BD /* RakSleep.h */; };
 		8AA94D581C73A0F60026AFBC /* RakString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025316716A6775E0000C5BD /* RakString.cpp */; };
-		8AA94D591C73A0F60026AFBC /* RakString.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025316816A6775E0000C5BD /* RakString.h */; };
 		8AA94D5A1C73A0F60026AFBC /* RakThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025316916A6775E0000C5BD /* RakThread.cpp */; };
-		8AA94D5B1C73A0F60026AFBC /* RakThread.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025316A16A6775E0000C5BD /* RakThread.h */; };
 		8AA94D5C1C73A0F60026AFBC /* RakWString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025316B16A6775E0000C5BD /* RakWString.cpp */; };
-		8AA94D5D1C73A0F60026AFBC /* RakWString.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025316C16A6775E0000C5BD /* RakWString.h */; };
 		8AA94D5E1C73A0F60026AFBC /* Rand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025316D16A6775E0000C5BD /* Rand.cpp */; };
-		8AA94D5F1C73A0F60026AFBC /* Rand.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025316E16A6775E0000C5BD /* Rand.h */; };
 		8AA94D601C73A0F60026AFBC /* ReadyEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025316F16A6775E0000C5BD /* ReadyEvent.cpp */; };
-		8AA94D611C73A0F60026AFBC /* ReadyEvent.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025317016A6775E0000C5BD /* ReadyEvent.h */; };
-		8AA94D621C73A0F60026AFBC /* RefCountedObj.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025317116A6775E0000C5BD /* RefCountedObj.h */; };
 		8AA94D631C73A0F60026AFBC /* RelayPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025317216A6775E0000C5BD /* RelayPlugin.cpp */; };
-		8AA94D641C73A0F60026AFBC /* RelayPlugin.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025317316A6775E0000C5BD /* RelayPlugin.h */; };
 		8AA94D651C73A0F60026AFBC /* ReliabilityLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025317416A6775E0000C5BD /* ReliabilityLayer.cpp */; };
-		8AA94D661C73A0F60026AFBC /* ReliabilityLayer.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025317516A6775E0000C5BD /* ReliabilityLayer.h */; };
-		8AA94D671C73A0F60026AFBC /* ReplicaEnums.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025317616A6775E0000C5BD /* ReplicaEnums.h */; };
 		8AA94D681C73A0F60026AFBC /* ReplicaManager3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025317716A6775E0000C5BD /* ReplicaManager3.cpp */; };
-		8AA94D691C73A0F60026AFBC /* ReplicaManager3.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025317816A6775E0000C5BD /* ReplicaManager3.h */; };
 		8AA94D6A1C73A0F60026AFBC /* Router2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025317916A6775E0000C5BD /* Router2.cpp */; };
-		8AA94D6B1C73A0F60026AFBC /* Router2.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025317A16A6775E0000C5BD /* Router2.h */; };
 		8AA94D6C1C73A0F60026AFBC /* RPC4Plugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025317B16A6775E0000C5BD /* RPC4Plugin.cpp */; };
-		8AA94D6D1C73A0F60026AFBC /* RPC4Plugin.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025317C16A6775E0000C5BD /* RPC4Plugin.h */; };
 		8AA94D6E1C73A0F60026AFBC /* SecureHandshake.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025317D16A6775E0000C5BD /* SecureHandshake.cpp */; };
-		8AA94D6F1C73A0F60026AFBC /* SecureHandshake.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025317E16A6775E0000C5BD /* SecureHandshake.h */; };
 		8AA94D701C73A0F60026AFBC /* SendToThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025317F16A6775E0000C5BD /* SendToThread.cpp */; };
-		8AA94D711C73A0F60026AFBC /* SendToThread.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025318016A6775E0000C5BD /* SendToThread.h */; };
 		8AA94D741C73A0F60026AFBC /* SignaledEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025318316A6775E0000C5BD /* SignaledEvent.cpp */; };
-		8AA94D751C73A0F60026AFBC /* SignaledEvent.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025318416A6775E0000C5BD /* SignaledEvent.h */; };
 		8AA94D761C73A0F60026AFBC /* SimpleMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025318516A6775E0000C5BD /* SimpleMutex.cpp */; };
-		8AA94D771C73A0F60026AFBC /* SimpleMutex.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025318616A6775E0000C5BD /* SimpleMutex.h */; };
-		8AA94D781C73A0F60026AFBC /* SimpleTCPServer.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025318716A6775E0000C5BD /* SimpleTCPServer.h */; };
-		8AA94D791C73A0F60026AFBC /* SingleProducerConsumer.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025318816A6775E0000C5BD /* SingleProducerConsumer.h */; };
-		8AA94D7A1C73A0F60026AFBC /* SocketDefines.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025318916A6775E0000C5BD /* SocketDefines.h */; };
-		8AA94D7B1C73A0F60026AFBC /* SocketIncludes.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025318A16A6775E0000C5BD /* SocketIncludes.h */; };
 		8AA94D7C1C73A0F60026AFBC /* SocketLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025318B16A6775E0000C5BD /* SocketLayer.cpp */; };
-		8AA94D7D1C73A0F60026AFBC /* SocketLayer.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025318C16A6775E0000C5BD /* SocketLayer.h */; };
 		8AA94D7E1C73A0F60026AFBC /* StatisticsHistory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025318D16A6775E0000C5BD /* StatisticsHistory.cpp */; };
-		8AA94D7F1C73A0F60026AFBC /* StatisticsHistory.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025318E16A6775E0000C5BD /* StatisticsHistory.h */; };
 		8AA94D801C73A0F60026AFBC /* StringCompressor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025318F16A6775E0000C5BD /* StringCompressor.cpp */; };
-		8AA94D811C73A0F60026AFBC /* StringCompressor.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025319016A6775E0000C5BD /* StringCompressor.h */; };
 		8AA94D821C73A0F60026AFBC /* StringTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025319116A6775E0000C5BD /* StringTable.cpp */; };
-		8AA94D831C73A0F60026AFBC /* StringTable.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025319216A6775E0000C5BD /* StringTable.h */; };
 		8AA94D841C73A0F70026AFBC /* SuperFastHash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025319316A6775E0000C5BD /* SuperFastHash.cpp */; };
-		8AA94D851C73A0F70026AFBC /* SuperFastHash.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025319416A6775E0000C5BD /* SuperFastHash.h */; };
 		8AA94D861C73A0F70026AFBC /* TableSerializer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025319516A6775E0000C5BD /* TableSerializer.cpp */; };
-		8AA94D871C73A0F70026AFBC /* TableSerializer.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025319616A6775E0000C5BD /* TableSerializer.h */; };
 		8AA94D881C73A0F70026AFBC /* TCPInterface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025319716A6775E0000C5BD /* TCPInterface.cpp */; };
-		8AA94D891C73A0F70026AFBC /* TCPInterface.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025319816A6775E0000C5BD /* TCPInterface.h */; };
 		8AA94D8A1C73A0F70026AFBC /* TeamBalancer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025319916A6775E0000C5BD /* TeamBalancer.cpp */; };
-		8AA94D8B1C73A0F70026AFBC /* TeamBalancer.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025319A16A6775E0000C5BD /* TeamBalancer.h */; };
 		8AA94D8C1C73A0F70026AFBC /* TeamManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025319B16A6775E0000C5BD /* TeamManager.cpp */; };
-		8AA94D8D1C73A0F70026AFBC /* TeamManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025319C16A6775E0000C5BD /* TeamManager.h */; };
 		8AA94D8E1C73A0F70026AFBC /* TelnetTransport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1025319D16A6775E0000C5BD /* TelnetTransport.cpp */; };
-		8AA94D8F1C73A0F70026AFBC /* TelnetTransport.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025319E16A6775E0000C5BD /* TelnetTransport.h */; };
-		8AA94D901C73A0F70026AFBC /* ThreadPool.h in Sources */ = {isa = PBXBuildFile; fileRef = 1025319F16A6775E0000C5BD /* ThreadPool.h */; };
 		8AA94D911C73A0F70026AFBC /* ThreadsafePacketLogger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102531A016A6775E0000C5BD /* ThreadsafePacketLogger.cpp */; };
-		8AA94D921C73A0F70026AFBC /* ThreadsafePacketLogger.h in Sources */ = {isa = PBXBuildFile; fileRef = 102531A116A6775E0000C5BD /* ThreadsafePacketLogger.h */; };
-		8AA94D931C73A0F70026AFBC /* TransportInterface.h in Sources */ = {isa = PBXBuildFile; fileRef = 102531A216A6775E0000C5BD /* TransportInterface.h */; };
 		8AA94D941C73A0F70026AFBC /* TwoWayAuthentication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102531A316A6775E0000C5BD /* TwoWayAuthentication.cpp */; };
-		8AA94D951C73A0F70026AFBC /* TwoWayAuthentication.h in Sources */ = {isa = PBXBuildFile; fileRef = 102531A416A6775E0000C5BD /* TwoWayAuthentication.h */; };
 		8AA94D961C73A0F70026AFBC /* UDPForwarder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102531A516A6775E0000C5BD /* UDPForwarder.cpp */; };
-		8AA94D971C73A0F70026AFBC /* UDPForwarder.h in Sources */ = {isa = PBXBuildFile; fileRef = 102531A616A6775E0000C5BD /* UDPForwarder.h */; };
 		8AA94D981C73A0F70026AFBC /* UDPProxyClient.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102531A716A6775E0000C5BD /* UDPProxyClient.cpp */; };
-		8AA94D991C73A0F70026AFBC /* UDPProxyClient.h in Sources */ = {isa = PBXBuildFile; fileRef = 102531A816A6775E0000C5BD /* UDPProxyClient.h */; };
-		8AA94D9A1C73A0F70026AFBC /* UDPProxyCommon.h in Sources */ = {isa = PBXBuildFile; fileRef = 102531A916A6775E0000C5BD /* UDPProxyCommon.h */; };
 		8AA94D9B1C73A0F70026AFBC /* UDPProxyCoordinator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102531AA16A6775E0000C5BD /* UDPProxyCoordinator.cpp */; };
-		8AA94D9C1C73A0F70026AFBC /* UDPProxyCoordinator.h in Sources */ = {isa = PBXBuildFile; fileRef = 102531AB16A6775E0000C5BD /* UDPProxyCoordinator.h */; };
 		8AA94D9D1C73A0F70026AFBC /* UDPProxyServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102531AC16A6775E0000C5BD /* UDPProxyServer.cpp */; };
-		8AA94D9E1C73A0F70026AFBC /* UDPProxyServer.h in Sources */ = {isa = PBXBuildFile; fileRef = 102531AD16A6775E0000C5BD /* UDPProxyServer.h */; };
 		8AA94D9F1C73A0F70026AFBC /* VariableDeltaSerializer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102531AE16A6775E0000C5BD /* VariableDeltaSerializer.cpp */; };
-		8AA94DA01C73A0F70026AFBC /* VariableDeltaSerializer.h in Sources */ = {isa = PBXBuildFile; fileRef = 102531AF16A6775E0000C5BD /* VariableDeltaSerializer.h */; };
 		8AA94DA11C73A0F70026AFBC /* VariableListDeltaTracker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102531B016A6775E0000C5BD /* VariableListDeltaTracker.cpp */; };
-		8AA94DA21C73A0F70026AFBC /* VariableListDeltaTracker.h in Sources */ = {isa = PBXBuildFile; fileRef = 102531B116A6775E0000C5BD /* VariableListDeltaTracker.h */; };
 		8AA94DA31C73A0F70026AFBC /* VariadicSQLParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102531B216A6775E0000C5BD /* VariadicSQLParser.cpp */; };
-		8AA94DA41C73A0F70026AFBC /* VariadicSQLParser.h in Sources */ = {isa = PBXBuildFile; fileRef = 102531B316A6775E0000C5BD /* VariadicSQLParser.h */; };
 		8AA94DA51C73A0F80026AFBC /* VitaIncludes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102531B416A6775E0000C5BD /* VitaIncludes.cpp */; };
-		8AA94DA61C73A0F80026AFBC /* VitaIncludes.h in Sources */ = {isa = PBXBuildFile; fileRef = 102531B516A6775E0000C5BD /* VitaIncludes.h */; };
-		8AA94DA71C73A0F80026AFBC /* WindowsIncludes.h in Sources */ = {isa = PBXBuildFile; fileRef = 102531B616A6775E0000C5BD /* WindowsIncludes.h */; };
 		8AA94DA81C73A0F80026AFBC /* WSAStartupSingleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 102531B716A6775E0000C5BD /* WSAStartupSingleton.cpp */; };
-		8AA94DA91C73A0F80026AFBC /* WSAStartupSingleton.h in Sources */ = {isa = PBXBuildFile; fileRef = 102531B816A6775E0000C5BD /* WSAStartupSingleton.h */; };
-		8AA94DAA1C73A0F80026AFBC /* XBox360Includes.h in Sources */ = {isa = PBXBuildFile; fileRef = 102531B916A6775E0000C5BD /* XBox360Includes.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -815,7 +659,7 @@
 		8A40EF071C4572F6001864D2 /* DR_SHA1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DR_SHA1.cpp; sourceTree = "<group>"; };
 		8A40EF081C4572F6001864D2 /* DR_SHA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DR_SHA1.h; sourceTree = "<group>"; };
 		8A40EF0E1C458927001864D2 /* libRakNet iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libRakNet iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8AA94C8D1C739E770026AFBC /* libRakNet Mac.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; name = "libRakNet Mac.dylib"; path = "libRakNet Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AA94C8D1C739E770026AFBC /* libRakNet Mac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libRakNet Mac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -849,7 +693,7 @@
 			isa = PBXGroup;
 			children = (
 				8A40EF0E1C458927001864D2 /* libRakNet iOS.a */,
-				8AA94C8D1C739E770026AFBC /* libRakNet Mac.dylib */,
+				8AA94C8D1C739E770026AFBC /* libRakNet Mac.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1075,8 +919,6 @@
 				1025317E16A6775E0000C5BD /* SecureHandshake.h */,
 				1025317F16A6775E0000C5BD /* SendToThread.cpp */,
 				1025318016A6775E0000C5BD /* SendToThread.h */,
-				1025318116A6775E0000C5BD /* SHA1.cpp */,
-				1025318216A6775E0000C5BD /* SHA1.h */,
 				1025318316A6775E0000C5BD /* SignaledEvent.cpp */,
 				1025318416A6775E0000C5BD /* SignaledEvent.h */,
 				1025318516A6775E0000C5BD /* SimpleMutex.cpp */,
@@ -1181,7 +1023,7 @@
 			);
 			name = "RakNet Mac";
 			productName = "RakNet Mac";
-			productReference = 8AA94C8D1C739E770026AFBC /* libRakNet Mac.dylib */;
+			productReference = 8AA94C8D1C739E770026AFBC /* libRakNet Mac.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -1496,165 +1338,63 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AA94CA21C73A0F40026AFBC /* DR_SHA1.cpp in Sources */,
-				8AA94CA31C73A0F40026AFBC /* DR_SHA1.h in Sources */,
 				8AA94CA41C73A0F40026AFBC /* _FindFirst.cpp in Sources */,
-				8AA94CA51C73A0F40026AFBC /* _FindFirst.h in Sources */,
-				8AA94CA61C73A0F40026AFBC /* AutopatcherPatchContext.h in Sources */,
-				8AA94CA71C73A0F40026AFBC /* AutopatcherRepositoryInterface.h in Sources */,
 				8AA94CA81C73A0F40026AFBC /* Base64Encoder.cpp in Sources */,
-				8AA94CA91C73A0F40026AFBC /* Base64Encoder.h in Sources */,
 				8AA94CAA1C73A0F40026AFBC /* BitStream.cpp in Sources */,
-				8AA94CAB1C73A0F40026AFBC /* BitStream.h in Sources */,
 				8AA94CAC1C73A0F40026AFBC /* CCRakNetSlidingWindow.cpp in Sources */,
-				8AA94CAD1C73A0F40026AFBC /* CCRakNetSlidingWindow.h in Sources */,
 				8AA94CAE1C73A0F40026AFBC /* CCRakNetUDT.cpp in Sources */,
-				8AA94CAF1C73A0F40026AFBC /* CCRakNetUDT.h in Sources */,
 				8AA94CB01C73A0F40026AFBC /* CheckSum.cpp in Sources */,
-				8AA94CB11C73A0F40026AFBC /* CheckSum.h in Sources */,
 				8AA94CB21C73A0F40026AFBC /* CloudClient.cpp in Sources */,
-				8AA94CB31C73A0F40026AFBC /* CloudClient.h in Sources */,
 				8AA94CB41C73A0F40026AFBC /* CloudCommon.cpp in Sources */,
-				8AA94CB51C73A0F40026AFBC /* CloudCommon.h in Sources */,
 				8AA94CB61C73A0F40026AFBC /* CloudServer.cpp in Sources */,
-				8AA94CB71C73A0F40026AFBC /* CloudServer.h in Sources */,
-				8AA94CB81C73A0F40026AFBC /* CMakeLists.txt in Sources */,
 				8AA94CB91C73A0F40026AFBC /* CommandParserInterface.cpp in Sources */,
-				8AA94CBA1C73A0F40026AFBC /* CommandParserInterface.h in Sources */,
 				8AA94CBB1C73A0F40026AFBC /* ConnectionGraph2.cpp in Sources */,
-				8AA94CBC1C73A0F40026AFBC /* ConnectionGraph2.h in Sources */,
 				8AA94CBD1C73A0F40026AFBC /* ConsoleServer.cpp in Sources */,
-				8AA94CBE1C73A0F40026AFBC /* ConsoleServer.h in Sources */,
 				8AA94CBF1C73A0F40026AFBC /* DataCompressor.cpp in Sources */,
-				8AA94CC01C73A0F40026AFBC /* DataCompressor.h in Sources */,
 				8AA94CC11C73A0F40026AFBC /* DirectoryDeltaTransfer.cpp in Sources */,
-				8AA94CC21C73A0F40026AFBC /* DirectoryDeltaTransfer.h in Sources */,
-				8AA94CC31C73A0F40026AFBC /* DS_BinarySearchTree.h in Sources */,
-				8AA94CC41C73A0F40026AFBC /* DS_BPlusTree.h in Sources */,
 				8AA94CC51C73A0F40026AFBC /* DS_BytePool.cpp in Sources */,
-				8AA94CC61C73A0F40026AFBC /* DS_BytePool.h in Sources */,
 				8AA94CC71C73A0F40026AFBC /* DS_ByteQueue.cpp in Sources */,
-				8AA94CC81C73A0F40026AFBC /* DS_ByteQueue.h in Sources */,
-				8AA94CC91C73A0F40026AFBC /* DS_Hash.h in Sources */,
-				8AA94CCA1C73A0F40026AFBC /* DS_Heap.h in Sources */,
 				8AA94CCB1C73A0F40026AFBC /* DS_HuffmanEncodingTree.cpp in Sources */,
-				8AA94CCC1C73A0F40026AFBC /* DS_HuffmanEncodingTree.h in Sources */,
-				8AA94CCD1C73A0F40026AFBC /* DS_HuffmanEncodingTreeFactory.h in Sources */,
-				8AA94CCE1C73A0F40026AFBC /* DS_HuffmanEncodingTreeNode.h in Sources */,
-				8AA94CCF1C73A0F40026AFBC /* DS_LinkedList.h in Sources */,
-				8AA94CD01C73A0F40026AFBC /* DS_List.h in Sources */,
-				8AA94CD11C73A0F40026AFBC /* DS_Map.h in Sources */,
-				8AA94CD21C73A0F40026AFBC /* DS_MemoryPool.h in Sources */,
-				8AA94CD31C73A0F40026AFBC /* DS_Multilist.h in Sources */,
-				8AA94CD41C73A0F40026AFBC /* DS_OrderedChannelHeap.h in Sources */,
-				8AA94CD51C73A0F40026AFBC /* DS_OrderedList.h in Sources */,
-				8AA94CD61C73A0F40026AFBC /* DS_Queue.h in Sources */,
-				8AA94CD71C73A0F40026AFBC /* DS_QueueLinkedList.h in Sources */,
-				8AA94CD81C73A0F40026AFBC /* DS_RangeList.h in Sources */,
 				8AA94CD91C73A0F40026AFBC /* DS_Table.cpp in Sources */,
-				8AA94CDA1C73A0F40026AFBC /* DS_Table.h in Sources */,
-				8AA94CDB1C73A0F40026AFBC /* DS_ThreadsafeAllocatingQueue.h in Sources */,
-				8AA94CDC1C73A0F40026AFBC /* DS_Tree.h in Sources */,
-				8AA94CDD1C73A0F40026AFBC /* DS_WeightedGraph.h in Sources */,
 				8AA94CDE1C73A0F40026AFBC /* DynDNS.cpp in Sources */,
-				8AA94CDF1C73A0F40026AFBC /* DynDNS.h in Sources */,
 				8AA94CE01C73A0F40026AFBC /* EmailSender.cpp in Sources */,
-				8AA94CE11C73A0F40026AFBC /* EmailSender.h in Sources */,
-				8AA94CE21C73A0F40026AFBC /* EmptyHeader.h in Sources */,
 				8AA94CE31C73A0F40026AFBC /* EpochTimeToString.cpp in Sources */,
-				8AA94CE41C73A0F40026AFBC /* EpochTimeToString.h in Sources */,
-				8AA94CE51C73A0F40026AFBC /* Export.h in Sources */,
 				8AA94CE61C73A0F40026AFBC /* FileList.cpp in Sources */,
-				8AA94CE71C73A0F40026AFBC /* FileList.h in Sources */,
-				8AA94CE81C73A0F40026AFBC /* FileListNodeContext.h in Sources */,
 				8AA94CE91C73A0F40026AFBC /* FileListTransfer.cpp in Sources */,
-				8AA94CEA1C73A0F40026AFBC /* FileListTransfer.h in Sources */,
-				8AA94CEB1C73A0F40026AFBC /* FileListTransferCBInterface.h in Sources */,
 				8AA94CEC1C73A0F40026AFBC /* FileOperations.cpp in Sources */,
-				8AA94CED1C73A0F40026AFBC /* FileOperations.h in Sources */,
 				8AA94CEE1C73A0F40026AFBC /* FormatString.cpp in Sources */,
-				8AA94CEF1C73A0F40026AFBC /* FormatString.h in Sources */,
 				8AA94CF01C73A0F40026AFBC /* FullyConnectedMesh2.cpp in Sources */,
-				8AA94CF11C73A0F40026AFBC /* FullyConnectedMesh2.h in Sources */,
 				8AA94CF21C73A0F40026AFBC /* Getche.cpp in Sources */,
-				8AA94CF31C73A0F40026AFBC /* Getche.h in Sources */,
 				8AA94CF41C73A0F40026AFBC /* Gets.cpp in Sources */,
-				8AA94CF51C73A0F40026AFBC /* Gets.h in Sources */,
 				8AA94CF61C73A0F40026AFBC /* GetTime.cpp in Sources */,
-				8AA94CF71C73A0F40026AFBC /* GetTime.h in Sources */,
 				8AA94CF81C73A0F40026AFBC /* gettimeofday.cpp in Sources */,
-				8AA94CF91C73A0F40026AFBC /* gettimeofday.h in Sources */,
 				8AA94CFA1C73A0F40026AFBC /* GridSectorizer.cpp in Sources */,
-				8AA94CFB1C73A0F40026AFBC /* GridSectorizer.h in Sources */,
 				8AA94CFC1C73A0F40026AFBC /* HTTPConnection.cpp in Sources */,
-				8AA94CFD1C73A0F40026AFBC /* HTTPConnection.h in Sources */,
 				8AA94CFE1C73A0F40026AFBC /* HTTPConnection2.cpp in Sources */,
-				8AA94CFF1C73A0F40026AFBC /* HTTPConnection2.h in Sources */,
 				8AA94D001C73A0F40026AFBC /* IncrementalReadInterface.cpp in Sources */,
-				8AA94D011C73A0F40026AFBC /* IncrementalReadInterface.h in Sources */,
-				8AA94D021C73A0F40026AFBC /* InternalPacket.h in Sources */,
 				8AA94D031C73A0F50026AFBC /* Itoa.cpp in Sources */,
-				8AA94D041C73A0F50026AFBC /* Itoa.h in Sources */,
-				8AA94D051C73A0F50026AFBC /* Kbhit.h in Sources */,
 				8AA94D061C73A0F50026AFBC /* LinuxStrings.cpp in Sources */,
-				8AA94D071C73A0F50026AFBC /* LinuxStrings.h in Sources */,
 				8AA94D081C73A0F50026AFBC /* LocklessTypes.cpp in Sources */,
-				8AA94D091C73A0F50026AFBC /* LocklessTypes.h in Sources */,
 				8AA94D0A1C73A0F50026AFBC /* LogCommandParser.cpp in Sources */,
-				8AA94D0B1C73A0F50026AFBC /* LogCommandParser.h in Sources */,
 				8AA94D0C1C73A0F50026AFBC /* MessageFilter.cpp in Sources */,
-				8AA94D0D1C73A0F50026AFBC /* MessageFilter.h in Sources */,
-				8AA94D0E1C73A0F50026AFBC /* MessageIdentifiers.h in Sources */,
-				8AA94D0F1C73A0F50026AFBC /* MTUSize.h in Sources */,
-				8AA94D101C73A0F50026AFBC /* NativeFeatureIncludes.h in Sources */,
-				8AA94D111C73A0F50026AFBC /* NativeFeatureIncludesOverrides.h in Sources */,
-				8AA94D121C73A0F50026AFBC /* NativeTypes.h in Sources */,
 				8AA94D131C73A0F50026AFBC /* NatPunchthroughClient.cpp in Sources */,
-				8AA94D141C73A0F50026AFBC /* NatPunchthroughClient.h in Sources */,
 				8AA94D151C73A0F50026AFBC /* NatPunchthroughServer.cpp in Sources */,
-				8AA94D161C73A0F50026AFBC /* NatPunchthroughServer.h in Sources */,
 				8AA94D171C73A0F50026AFBC /* NatTypeDetectionClient.cpp in Sources */,
-				8AA94D181C73A0F50026AFBC /* NatTypeDetectionClient.h in Sources */,
 				8AA94D191C73A0F50026AFBC /* NatTypeDetectionCommon.cpp in Sources */,
-				8AA94D1A1C73A0F50026AFBC /* NatTypeDetectionCommon.h in Sources */,
 				8AA94D1B1C73A0F50026AFBC /* NatTypeDetectionServer.cpp in Sources */,
-				8AA94D1C1C73A0F50026AFBC /* NatTypeDetectionServer.h in Sources */,
 				8AA94D1D1C73A0F50026AFBC /* NetworkIDManager.cpp in Sources */,
-				8AA94D1E1C73A0F50026AFBC /* NetworkIDManager.h in Sources */,
 				8AA94D1F1C73A0F50026AFBC /* NetworkIDObject.cpp in Sources */,
-				8AA94D201C73A0F50026AFBC /* NetworkIDObject.h in Sources */,
 				8AA94D211C73A0F50026AFBC /* PacketConsoleLogger.cpp in Sources */,
-				8AA94D221C73A0F50026AFBC /* PacketConsoleLogger.h in Sources */,
 				8AA94D231C73A0F50026AFBC /* PacketFileLogger.cpp in Sources */,
-				8AA94D241C73A0F50026AFBC /* PacketFileLogger.h in Sources */,
 				8AA94D251C73A0F50026AFBC /* PacketizedTCP.cpp in Sources */,
-				8AA94D261C73A0F50026AFBC /* PacketizedTCP.h in Sources */,
 				8AA94D271C73A0F50026AFBC /* PacketLogger.cpp in Sources */,
-				8AA94D281C73A0F50026AFBC /* PacketLogger.h in Sources */,
 				8AA94D291C73A0F50026AFBC /* PacketOutputWindowLogger.cpp in Sources */,
-				8AA94D2A1C73A0F50026AFBC /* PacketOutputWindowLogger.h in Sources */,
-				8AA94D2B1C73A0F50026AFBC /* PacketPool.h in Sources */,
-				8AA94D2C1C73A0F50026AFBC /* PacketPriority.h in Sources */,
 				8AA94D2D1C73A0F50026AFBC /* PluginInterface2.cpp in Sources */,
-				8AA94D2E1C73A0F50026AFBC /* PluginInterface2.h in Sources */,
-				8AA94D2F1C73A0F50026AFBC /* PS3Includes.h in Sources */,
 				8AA94D301C73A0F50026AFBC /* Rackspace.cpp in Sources */,
-				8AA94D311C73A0F50026AFBC /* Rackspace.h in Sources */,
-				8AA94D321C73A0F50026AFBC /* RakAlloca.h in Sources */,
-				8AA94D331C73A0F50026AFBC /* RakAssert.h in Sources */,
 				8AA94D341C73A0F50026AFBC /* RakMemoryOverride.cpp in Sources */,
-				8AA94D351C73A0F50026AFBC /* RakMemoryOverride.h in Sources */,
-				8AA94D361C73A0F50026AFBC /* RakNet.vcproj in Sources */,
-				8AA94D371C73A0F50026AFBC /* RakNet_vc8.vcproj in Sources */,
-				8AA94D381C73A0F50026AFBC /* RakNet_vc9.vcproj in Sources */,
 				8AA94D391C73A0F50026AFBC /* RakNetCommandParser.cpp in Sources */,
-				8AA94D3A1C73A0F50026AFBC /* RakNetCommandParser.h in Sources */,
-				8AA94D3B1C73A0F50026AFBC /* RakNetDefines.h in Sources */,
-				8AA94D3C1C73A0F50026AFBC /* RakNetDefinesOverrides.h in Sources */,
-				8AA94D3D1C73A0F50026AFBC /* RakNetSmartPtr.h in Sources */,
 				8AA94D3E1C73A0F50026AFBC /* RakNetSocket.cpp in Sources */,
-				8AA94D3F1C73A0F50026AFBC /* RakNetSocket.h in Sources */,
 				8AA94D401C73A0F50026AFBC /* RakNetSocket2.cpp in Sources */,
-				8AA94D411C73A0F50026AFBC /* RakNetSocket2.h in Sources */,
 				8AA94D421C73A0F50026AFBC /* RakNetSocket2_360_720.cpp in Sources */,
 				8AA94D431C73A0F50026AFBC /* RakNetSocket2_Berkley.cpp in Sources */,
 				8AA94D441C73A0F50026AFBC /* RakNetSocket2_Berkley_NativeClient.cpp in Sources */,
@@ -1665,99 +1405,45 @@
 				8AA94D491C73A0F50026AFBC /* RakNetSocket2_Windows_Linux_360.cpp in Sources */,
 				8AA94D4A1C73A0F50026AFBC /* RakNetSocket2_WindowsStore8.cpp in Sources */,
 				8AA94D4B1C73A0F50026AFBC /* RakNetStatistics.cpp in Sources */,
-				8AA94D4C1C73A0F50026AFBC /* RakNetStatistics.h in Sources */,
-				8AA94D4D1C73A0F50026AFBC /* RakNetTime.h in Sources */,
 				8AA94D4E1C73A0F50026AFBC /* RakNetTransport2.cpp in Sources */,
-				8AA94D4F1C73A0F50026AFBC /* RakNetTransport2.h in Sources */,
 				8AA94D501C73A0F50026AFBC /* RakNetTypes.cpp in Sources */,
-				8AA94D511C73A0F50026AFBC /* RakNetTypes.h in Sources */,
-				8AA94D521C73A0F50026AFBC /* RakNetVersion.h in Sources */,
 				8AA94D531C73A0F50026AFBC /* RakPeer.cpp in Sources */,
-				8AA94D541C73A0F50026AFBC /* RakPeer.h in Sources */,
-				8AA94D551C73A0F50026AFBC /* RakPeerInterface.h in Sources */,
 				8AA94D561C73A0F50026AFBC /* RakSleep.cpp in Sources */,
-				8AA94D571C73A0F60026AFBC /* RakSleep.h in Sources */,
 				8AA94D581C73A0F60026AFBC /* RakString.cpp in Sources */,
-				8AA94D591C73A0F60026AFBC /* RakString.h in Sources */,
 				8AA94D5A1C73A0F60026AFBC /* RakThread.cpp in Sources */,
-				8AA94D5B1C73A0F60026AFBC /* RakThread.h in Sources */,
 				8AA94D5C1C73A0F60026AFBC /* RakWString.cpp in Sources */,
-				8AA94D5D1C73A0F60026AFBC /* RakWString.h in Sources */,
 				8AA94D5E1C73A0F60026AFBC /* Rand.cpp in Sources */,
-				8AA94D5F1C73A0F60026AFBC /* Rand.h in Sources */,
 				8AA94D601C73A0F60026AFBC /* ReadyEvent.cpp in Sources */,
-				8AA94D611C73A0F60026AFBC /* ReadyEvent.h in Sources */,
-				8AA94D621C73A0F60026AFBC /* RefCountedObj.h in Sources */,
 				8AA94D631C73A0F60026AFBC /* RelayPlugin.cpp in Sources */,
-				8AA94D641C73A0F60026AFBC /* RelayPlugin.h in Sources */,
 				8AA94D651C73A0F60026AFBC /* ReliabilityLayer.cpp in Sources */,
-				8AA94D661C73A0F60026AFBC /* ReliabilityLayer.h in Sources */,
-				8AA94D671C73A0F60026AFBC /* ReplicaEnums.h in Sources */,
 				8AA94D681C73A0F60026AFBC /* ReplicaManager3.cpp in Sources */,
-				8AA94D691C73A0F60026AFBC /* ReplicaManager3.h in Sources */,
 				8AA94D6A1C73A0F60026AFBC /* Router2.cpp in Sources */,
-				8AA94D6B1C73A0F60026AFBC /* Router2.h in Sources */,
 				8AA94D6C1C73A0F60026AFBC /* RPC4Plugin.cpp in Sources */,
-				8AA94D6D1C73A0F60026AFBC /* RPC4Plugin.h in Sources */,
 				8AA94D6E1C73A0F60026AFBC /* SecureHandshake.cpp in Sources */,
-				8AA94D6F1C73A0F60026AFBC /* SecureHandshake.h in Sources */,
 				8AA94D701C73A0F60026AFBC /* SendToThread.cpp in Sources */,
-				8AA94D711C73A0F60026AFBC /* SendToThread.h in Sources */,
 				8AA94D741C73A0F60026AFBC /* SignaledEvent.cpp in Sources */,
-				8AA94D751C73A0F60026AFBC /* SignaledEvent.h in Sources */,
 				8AA94D761C73A0F60026AFBC /* SimpleMutex.cpp in Sources */,
-				8AA94D771C73A0F60026AFBC /* SimpleMutex.h in Sources */,
-				8AA94D781C73A0F60026AFBC /* SimpleTCPServer.h in Sources */,
-				8AA94D791C73A0F60026AFBC /* SingleProducerConsumer.h in Sources */,
-				8AA94D7A1C73A0F60026AFBC /* SocketDefines.h in Sources */,
-				8AA94D7B1C73A0F60026AFBC /* SocketIncludes.h in Sources */,
 				8AA94D7C1C73A0F60026AFBC /* SocketLayer.cpp in Sources */,
-				8AA94D7D1C73A0F60026AFBC /* SocketLayer.h in Sources */,
 				8AA94D7E1C73A0F60026AFBC /* StatisticsHistory.cpp in Sources */,
-				8AA94D7F1C73A0F60026AFBC /* StatisticsHistory.h in Sources */,
 				8AA94D801C73A0F60026AFBC /* StringCompressor.cpp in Sources */,
-				8AA94D811C73A0F60026AFBC /* StringCompressor.h in Sources */,
 				8AA94D821C73A0F60026AFBC /* StringTable.cpp in Sources */,
-				8AA94D831C73A0F60026AFBC /* StringTable.h in Sources */,
 				8AA94D841C73A0F70026AFBC /* SuperFastHash.cpp in Sources */,
-				8AA94D851C73A0F70026AFBC /* SuperFastHash.h in Sources */,
 				8AA94D861C73A0F70026AFBC /* TableSerializer.cpp in Sources */,
-				8AA94D871C73A0F70026AFBC /* TableSerializer.h in Sources */,
 				8AA94D881C73A0F70026AFBC /* TCPInterface.cpp in Sources */,
-				8AA94D891C73A0F70026AFBC /* TCPInterface.h in Sources */,
 				8AA94D8A1C73A0F70026AFBC /* TeamBalancer.cpp in Sources */,
-				8AA94D8B1C73A0F70026AFBC /* TeamBalancer.h in Sources */,
 				8AA94D8C1C73A0F70026AFBC /* TeamManager.cpp in Sources */,
-				8AA94D8D1C73A0F70026AFBC /* TeamManager.h in Sources */,
 				8AA94D8E1C73A0F70026AFBC /* TelnetTransport.cpp in Sources */,
-				8AA94D8F1C73A0F70026AFBC /* TelnetTransport.h in Sources */,
-				8AA94D901C73A0F70026AFBC /* ThreadPool.h in Sources */,
 				8AA94D911C73A0F70026AFBC /* ThreadsafePacketLogger.cpp in Sources */,
-				8AA94D921C73A0F70026AFBC /* ThreadsafePacketLogger.h in Sources */,
-				8AA94D931C73A0F70026AFBC /* TransportInterface.h in Sources */,
 				8AA94D941C73A0F70026AFBC /* TwoWayAuthentication.cpp in Sources */,
-				8AA94D951C73A0F70026AFBC /* TwoWayAuthentication.h in Sources */,
 				8AA94D961C73A0F70026AFBC /* UDPForwarder.cpp in Sources */,
-				8AA94D971C73A0F70026AFBC /* UDPForwarder.h in Sources */,
 				8AA94D981C73A0F70026AFBC /* UDPProxyClient.cpp in Sources */,
-				8AA94D991C73A0F70026AFBC /* UDPProxyClient.h in Sources */,
-				8AA94D9A1C73A0F70026AFBC /* UDPProxyCommon.h in Sources */,
 				8AA94D9B1C73A0F70026AFBC /* UDPProxyCoordinator.cpp in Sources */,
-				8AA94D9C1C73A0F70026AFBC /* UDPProxyCoordinator.h in Sources */,
 				8AA94D9D1C73A0F70026AFBC /* UDPProxyServer.cpp in Sources */,
-				8AA94D9E1C73A0F70026AFBC /* UDPProxyServer.h in Sources */,
 				8AA94D9F1C73A0F70026AFBC /* VariableDeltaSerializer.cpp in Sources */,
-				8AA94DA01C73A0F70026AFBC /* VariableDeltaSerializer.h in Sources */,
 				8AA94DA11C73A0F70026AFBC /* VariableListDeltaTracker.cpp in Sources */,
-				8AA94DA21C73A0F70026AFBC /* VariableListDeltaTracker.h in Sources */,
 				8AA94DA31C73A0F70026AFBC /* VariadicSQLParser.cpp in Sources */,
-				8AA94DA41C73A0F70026AFBC /* VariadicSQLParser.h in Sources */,
 				8AA94DA51C73A0F80026AFBC /* VitaIncludes.cpp in Sources */,
-				8AA94DA61C73A0F80026AFBC /* VitaIncludes.h in Sources */,
-				8AA94DA71C73A0F80026AFBC /* WindowsIncludes.h in Sources */,
 				8AA94DA81C73A0F80026AFBC /* WSAStartupSingleton.cpp in Sources */,
-				8AA94DA91C73A0F80026AFBC /* WSAStartupSingleton.h in Sources */,
-				8AA94DAA1C73A0F80026AFBC /* XBox360Includes.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1780,7 +1466,6 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -1886,7 +1571,6 @@
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1923,7 +1607,6 @@
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
