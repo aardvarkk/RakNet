@@ -85,7 +85,7 @@ void GetMyIP_Windows_Linux_IPV4( SystemAddress addresses[MAXIMUM_NUMBER_OF_INTER
 		if (!it)
 			break;
 
-		if (it->ifa_addr->sa_family != AF_INET)
+		if (!it->ifa_addr || it->ifa_addr->sa_family != AF_INET)
 			continue;
 		
 		memcpy(
