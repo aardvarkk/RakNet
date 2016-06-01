@@ -66,39 +66,44 @@ void GetMyIP_Windows_Linux_IPV4And6( SystemAddress addresses[MAXIMUM_NUMBER_OF_I
 
 #if (defined(__GNUC__)  || defined(__GCCXML__)) && !defined(__WIN32__)
 #include <netdb.h>
+#include <ifaddrs.h>
 #endif
 void GetMyIP_Windows_Linux_IPV4( SystemAddress addresses[MAXIMUM_NUMBER_OF_INTERNAL_IDS] )
 {
-
-
-
-	int idx=0;
-	char ac[ 80 ];
-	int err = gethostname( ac, sizeof( ac ) );
-    (void) err;
-	RakAssert(err != -1);
+	int idx = 0, written = 0;
+	ifaddrs* ifap;
+	ifaddrs* it;
+	int err = getifaddrs(&ifap);
 	
-	struct hostent *phe = gethostbyname( ac );
-
-	if ( phe == 0 )
-	{
-		RakAssert(phe!=0);
-		return ;
+	if (err != 0 || ifap == nullptr) {
+		RakAssert(false);
+		return;
 	}
-	for ( idx = 0; idx < MAXIMUM_NUMBER_OF_INTERNAL_IDS; ++idx )
+	
+	for ( idx = 0, it = ifap; idx < MAXIMUM_NUMBER_OF_INTERNAL_IDS; ++idx, it = it->ifa_next)
 	{
-		if (phe->h_addr_list[ idx ] == 0)
+		if (!it)
 			break;
 
-		memcpy(&addresses[idx].address.addr4.sin_addr,phe->h_addr_list[ idx ],sizeof(struct in_addr));
-	}
-	
-	while (idx < MAXIMUM_NUMBER_OF_INTERNAL_IDS)
-	{
-		addresses[idx]=UNASSIGNED_SYSTEM_ADDRESS;
-		idx++;
+		if (it->ifa_addr->sa_family != AF_INET)
+			continue;
+		
+		memcpy(
+			&addresses[written].address.addr4.sin_addr,
+			&((sockaddr_in*)it->ifa_addr)->sin_addr,
+			sizeof(struct in_addr)
+			);
+		
+		++written;
 	}
 
+	while (written < MAXIMUM_NUMBER_OF_INTERNAL_IDS)
+	{
+		addresses[written]=UNASSIGNED_SYSTEM_ADDRESS;
+		written++;
+	}
+	
+	freeifaddrs(ifap);
 }
 
 #endif // RAKNET_SUPPORT_IPV6==1
