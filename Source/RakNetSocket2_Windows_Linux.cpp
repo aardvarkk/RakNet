@@ -17,6 +17,10 @@
 
 #if !defined(WINDOWS_STORE_RT) && !defined(__native_client__)
 
+#if (defined(__GNUC__)  || defined(__GCCXML__)) && !defined(__WIN32__)
+#include <netdb.h>
+#endif
+
 #if RAKNET_SUPPORT_IPV6==1
 
 void PrepareAddrInfoHints2(addrinfo *hints)
@@ -28,45 +32,39 @@ void PrepareAddrInfoHints2(addrinfo *hints)
 
 void GetMyIP_Windows_Linux_IPV4And6( SystemAddress addresses[MAXIMUM_NUMBER_OF_INTERNAL_IDS] )
 {
-	int idx=0;
-	char ac[ 80 ];
-	int err = gethostname( ac, sizeof( ac ) );
+	int idx, written;
+	ifaddrs *ifap, *it;
+	int err = getifaddrs(&ifap);
 	RakAssert(err != -1);
 	
-	struct addrinfo hints;
-	struct addrinfo *servinfo=0, *aip;  // will point to the results
-	PrepareAddrInfoHints2(&hints);
-	getaddrinfo(ac, "", &hints, &servinfo);
-
-	for (idx=0, aip = servinfo; aip != NULL && idx < MAXIMUM_NUMBER_OF_INTERNAL_IDS; aip = aip->ai_next, idx++)
+	for (idx=0, written=0, it=ifap; it && idx < MAXIMUM_NUMBER_OF_INTERNAL_IDS; it = it->ifa_next, idx++)
 	{
-		if (aip->ai_family == AF_INET)
+		if (!it->ifa_addr) continue;
+		
+		if (it->ifa_addr->sa_family == AF_INET)
 		{
-			struct sockaddr_in *ipv4 = (struct sockaddr_in *)aip->ai_addr;
-			memcpy(&addresses[idx].address.addr4,ipv4,sizeof(sockaddr_in));
+			struct sockaddr_in *ipv4 = (struct sockaddr_in *)it->ifa_addr;
+			memcpy(&addresses[written++].address.addr4,ipv4,sizeof(sockaddr_in));
 		}
-		else
+		else if (it->ifa_addr->sa_family == AF_INET6)
 		{
-			struct sockaddr_in6 *ipv6 = (struct sockaddr_in6 *)aip->ai_addr;
-			memcpy(&addresses[idx].address.addr4,ipv6,sizeof(sockaddr_in6));
+			struct sockaddr_in6 *ipv6 = (struct sockaddr_in6 *)it->ifa_addr;
+			memcpy(&addresses[written++].address.addr4,ipv6,sizeof(sockaddr_in6));
 		}
 
 	}
 
-	freeaddrinfo(servinfo); // free the linked-list
+	freeifaddrs(ifap);
 	
-	while (idx < MAXIMUM_NUMBER_OF_INTERNAL_IDS)
+	while (written < MAXIMUM_NUMBER_OF_INTERNAL_IDS)
 	{
-		addresses[idx]=UNASSIGNED_SYSTEM_ADDRESS;
-		idx++;
+		addresses[written]=UNASSIGNED_SYSTEM_ADDRESS;
+		written++;
 	}
 }
 
 #else
 
-#if (defined(__GNUC__)  || defined(__GCCXML__)) && !defined(__WIN32__)
-#include <netdb.h>
-#endif
 void GetMyIP_Windows_Linux_IPV4( SystemAddress addresses[MAXIMUM_NUMBER_OF_INTERNAL_IDS] )
 {
 

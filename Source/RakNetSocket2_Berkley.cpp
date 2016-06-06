@@ -282,14 +282,16 @@ RNS2BindResult RNS2_Berkley::BindSharedIPV4And6( RNS2_BerkleyBindParameters *bin
 
 	// On Ubuntu, "" returns "No address associated with hostname" while 0 works.
 	if (bindParameters->hostAddress && 
-		(_stricmp(bindParameters->hostAddress,"UNASSIGNED_SYSTEM_ADDRESS")==0 || bindParameters->hostAddress[0]==0))
+		(strcmp(bindParameters->hostAddress,"UNASSIGNED_SYSTEM_ADDRESS")==0 || bindParameters->hostAddress[0]==0))
 	{
-		getaddrinfo(0, portStr, &hints, &servinfo);
+		ret = getaddrinfo(0, portStr, &hints, &servinfo);
 	}
 	else
 	{
-		getaddrinfo(bindParameters->hostAddress, portStr, &hints, &servinfo);
+		ret = getaddrinfo(bindParameters->hostAddress, portStr, &hints, &servinfo);
 	}
+
+	if (ret) return BR_FAILED_TO_BIND_SOCKET;
 
 	// Try all returned addresses until one works
 	for (aip = servinfo; aip != NULL; aip = aip->ai_next)
@@ -323,7 +325,11 @@ RNS2BindResult RNS2_Berkley::BindSharedIPV4And6( RNS2_BerkleyBindParameters *bin
 		if (ret>=0)
 		{
 			// Is this valid?
-			memcpy(&boundAddress.address.addr6, aip->ai_addr, sizeof(boundAddress.address.addr6));
+			if (bindParameters->addressFamily == AF_INET) {
+				memcpy(&boundAddress.address.addr4, aip->ai_addr, sizeof(boundAddress.address.addr4));
+			} else if (bindParameters->addressFamily == AF_INET6) {
+				memcpy(&boundAddress.address.addr6, aip->ai_addr, sizeof(boundAddress.address.addr6));
+			}
 
 			freeaddrinfo(servinfo); // free the linked-list
 

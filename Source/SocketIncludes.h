@@ -58,7 +58,7 @@
 	#include <arpa/inet.h>
 	#include <unistd.h>
 	#include <fcntl.h>
-
+	#include <netdb.h>
 	#ifdef __native_client__
 		#include "ppapi/cpp/private/net_address_private.h"
 		#include "ppapi/c/pp_bool.h"
