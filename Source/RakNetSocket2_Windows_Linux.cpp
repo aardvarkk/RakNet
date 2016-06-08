@@ -32,12 +32,12 @@ void PrepareAddrInfoHints2(addrinfo *hints)
 
 void GetMyIP_Windows_Linux_IPV4And6( SystemAddress addresses[MAXIMUM_NUMBER_OF_INTERNAL_IDS] )
 {
-	int idx, written;
+	int written;
 	ifaddrs *ifap, *it;
 	int err = getifaddrs(&ifap);
 	RakAssert(err != -1);
 	
-	for (idx=0, written=0, it=ifap; it && idx < MAXIMUM_NUMBER_OF_INTERNAL_IDS; it = it->ifa_next, idx++)
+	for (written=0, it=ifap; it && written < MAXIMUM_NUMBER_OF_INTERNAL_IDS; it = it->ifa_next)
 	{
 		if (!it->ifa_addr) continue;
 		
@@ -49,7 +49,7 @@ void GetMyIP_Windows_Linux_IPV4And6( SystemAddress addresses[MAXIMUM_NUMBER_OF_I
 		else if (it->ifa_addr->sa_family == AF_INET6)
 		{
 			struct sockaddr_in6 *ipv6 = (struct sockaddr_in6 *)it->ifa_addr;
-			memcpy(&addresses[written++].address.addr4,ipv6,sizeof(sockaddr_in6));
+			memcpy(&addresses[written++].address.addr6,ipv6,sizeof(sockaddr_in6));
 		}
 
 	}
